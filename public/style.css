@@ -1,46 +1,50 @@
-/****** Main Styling ******/
-
 body {
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	color: #222;
-	background-color: #FaFaFa;
-	text-align: center;
-	line-height: 1.4em;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
 }
 
 .container {
-	padding: 0;
-	margin-top: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-h3 {
-  margin-top: 30px;
+h1 {
+    color: #333;
+    text-align: center;
 }
 
-hr {
-	margin: 25px;
-}
-
-.footer {
-	margin-top: 40px;
-}
-
-code {
-  font-family: monospace;
-  padding: 2px;
-  color: black;
-  background-color: #fff;
+h2 {
+    color: #666;
+    margin-top: 20px;
 }
 
 ul {
-	list-style-type: none;
+    list-style-type: none;
+    padding: 0;
 }
 
 li {
-  margin-bottom: 0.5em;
+    margin: 10px 0;
 }
 
 a {
-	color: #2574A9;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 4px;
+    font-family: monospace;
 }
